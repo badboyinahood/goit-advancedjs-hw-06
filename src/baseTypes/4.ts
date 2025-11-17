@@ -3,6 +3,9 @@
   щоб гарантувати, що перший елемент завжди буде рядком, а другий числом?
 */
 
-let person = ['Max', 21];
+let person: [string, number] = ['Max', 21];
+
+// TEST
+console.log("Person tuple:", person); // ['Max', 21]
 
 export {};
